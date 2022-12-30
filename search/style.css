@@ -47,6 +47,8 @@ body {
 
 #search input {
   border: none;
+  background-color:transparent;
+  color: black;
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px;
   width: 100%;
@@ -89,4 +91,19 @@ body {
 .product .p-details h3 {
   font-size: 18px;
   color: black;
+}
+
+.container-1{
+  width: 70%;
+}
+
+.container-1 p{
+  text-align: center;
+  font-size: 15px;
+}
+
+.container-1 footer{
+  text-align: center;
+  font-size: 13px;
+  margin-top: 10px;
 }
