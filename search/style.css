@@ -43,6 +43,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px;
 }
 
 #search input {
@@ -50,7 +51,7 @@ body {
   background-color:transparent;
   color: black;
   outline: none;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px; */
   width: 100%;
   font-size: 16px;
   font-weight: 600;
