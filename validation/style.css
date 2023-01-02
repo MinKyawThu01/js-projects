@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+/* https://colorhunt.co/palette/f8ede3dfd3c3d0b8a885586f */
+/* https://colorhunt.co/palette/ede4e0c8dbbe9f8772665a48 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+
+body{
+    background-color: #EDE4E0;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+    padding: 3rem 2rem;
+}
+
+#myForm {
+    text-align: center;
+    margin-top: 15px;
+    background-color: #C8DBBE;
+    border-radius: 20px;
+    padding: 3rem;
+}
+
+#myForm h2{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+#myForm label{
+    /* display: block; */
+    font-size: 20px;
+}
+
+#myForm input[type="text"] ,input[type="password"]{
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#myForm ::placeholder{
+    font-size: 16px;
+    padding: 2px;
+    text-align: center;
+}
+
+#myForm .btn{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background-color:#85586F ;
+    color: #DFD3C3 ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#myForm .btn:hover{
+    background-color: #D0B8A8;
+    color: black;
+}
+
+#myForm p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#myForm a{
+    text-decoration: none;
+    color: black;
+}
+
+#myForm a:hover{
+    color: #665A48;
+}
