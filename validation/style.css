@@ -83,3 +83,10 @@ body{
 #myForm a:hover{
     color: #665A48;
 }
+
+.error{
+    text-align: center;
+    color: red;
+    padding: 5px;
+    margin: 5px;
+  }
