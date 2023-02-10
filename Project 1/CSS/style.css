@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "LoveCoffee";
+    src: url("../font/LoveCoffee.otf");
+    src: url("../font/LoveCoffee.otf") format("woff"),
+        url("../font/LoveCoffee.otf") format("opentype"),
+}
+
+@font-face {
+    font-family: "LouisGeorgeCafe";
+    src: url("../font/LouisGeorgeCafe.ttf");
+    src: url("../font/LouisGeorgeCafe.ttf") format("woff"),
+        url("../font/LouisGeorgeCafe.ttf") format("opentype"),
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #F0EBE3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: darkslategray;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: #7D9D9C ;
+    font-size: 70px;
+    color:#E4DCCF ;
+    padding: 15px 10px;
+    font-family: "LoveCoffee";
+   font-variant: small-caps;
+}
+
+#navbar{
+    background-color:#576F72 ;
+    padding: 10px 0px 30px 0px;
+}
+
+#navbar ul{
+    list-style: none;
+    padding: 0px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#navbar a:hover{
+    color: chartreuse;
+}
+
+#navbar li{
+    display: inline;
+    float: left;
+    padding-right: 60px;
+    padding-left: 0px;
+    font-size: 23px;
+}
+
+#burner{
+    background-image: url(../Image/simple-style.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-position: left center;
+}
+
+#burner p{
+    float: right ;
+    width: 40%;
+    /* box-sizing: content-box; */
+    font-size: 25px;
+    text-align: justify;
+    padding: 50px;
+    font-family: "LouisGeorgeCafe";
+}
+
+#main-section{
+    float: left;
+    width: 70%;
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+#main-section h1{
+    line-height: 2em;
+}
+
+#sidebar{
+    float: right ;
+    width: 30%;
+    /* text-align: justify; */
+  
+}
+
+#sidebar p{
+    padding: 20px;
+    box-sizing: border-box;
+    border: none black;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.25), 0 2px 3px rgba(0,0,0,0.22);
+    transition: 0.3s;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+
+#sidebar p:hover{
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25), 0 4px 6px rgba(0,0,0,0.22);
+}
+
+.clr{
+    clear: both;
+}
+
+.myFooter{
+    background-color: #576F72;
+    padding: 2px;
+    color: white;
+}
+
+.myFooter p{
+   text-align: center;
+}
+
+/* mobile website */
+@media only screen and (max-width: 600px) {
+    #main-section{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+
+#burner p{
+    font-size: 16px;
+
+}
+}
